@@ -13,7 +13,7 @@ class Quiz:
         self.quiz_frame.grid()#
                
         #widgets goes below
-        self.heading_label=Label(self.quiz_frame, text="Health Survey", font=("Arial","18","bold"),bg=background_color)
+        self.heading_label=Label(self.quiz_frame, text="Health Survey", font=("Helvetica","18","bold"),bg=background_color)
         self.heading_label.grid(row=0, padx=20) 
         self.var1=IntVar() #holds value of radio buttons
         
@@ -26,7 +26,7 @@ class Quiz:
         self.entry_box.grid(row=2,padx=20, pady=20)
         
         #continue button
-        self.continue_button = Button(self.quiz_frame, text="Exit", font=("Arial", "13", "bold"), bg="light salmon", command=self.name_collection)
+        self.continue_button = Button(self.quiz_frame, text="Exit", font=("Heltveitca", "13", "bold"), bg="light salmon", command=self.name_collection)
         self.continue_button.grid(row=3,  padx=20, pady=20)        
         
         #image
